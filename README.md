@@ -7,6 +7,7 @@ Distractor-Aware Discrimination Learning Model for Online Multiple Object Tracki
 ![DDL 框架图](figures/ddl%20framework.png)
 主要针对于SOT处理MOT任务中容易发生漂移问题.其中$L_{cls}$ 表示SOT跟踪中模板与搜索区域的匹配度, $L_{reg}$表示目标回归损失, $L_{det}$表示检测属于行人的概率.
 
+
 $$
 L_{reg} =L_{br}(t, t^*) + \beta L_{cs}(b)
 $$
